@@ -1,2 +1,29 @@
+body{
+    background-color: bisque;
+    font-family: verdana;
+    font-size: 20px;
+    margin: 15px;
+    padding: 15px;
+}
 
-\..Đây là file css..\
+h1 {
+  color: black;
+  text-align: center;
+}
+
+a:link {
+  color: green;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: goldenrod;
+}
+
+a:active {
+  color: yellow;
+}
+
