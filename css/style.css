@@ -11,6 +11,16 @@ h1 {
   text-align: center;
 }
 
+table, th, td{
+    border-color: black;
+    border-collapse: collapse
+}
+
+table, th, td.i2{
+    text-align: center;
+}
+
+
 a:link {
   color: green;
 }
@@ -27,3 +37,8 @@ a:active {
   color: yellow;
 }
 
+
+.i2  a{
+    position: static;
+    border: 3px solid #73AD21;
+}
