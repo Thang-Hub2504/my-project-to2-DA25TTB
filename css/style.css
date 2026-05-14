@@ -7,8 +7,8 @@ body{
 }
 
 h1{
+    border: 1px solid white;
     background-color: #1a5276;
-    border-radius: 10px;
     color: #fef9e7;
     padding: 20px 15px;
     text-align: center;
@@ -48,8 +48,8 @@ th {
 }
 
 img {
-    border-radius: 12px;
     display: block;
+    padding:0 0 0 200px; 
 }
 
 ul, ol {
@@ -67,6 +67,14 @@ a {
     color: #2980b9;
     font-weight: bold;
     text-decoration: none;
+}
+
+p:hover{
+    background-color: lightblue;
+}
+
+th, td:hover{
+    background-color: lightblue;
 }
 
 
