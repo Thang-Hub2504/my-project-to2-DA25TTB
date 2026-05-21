@@ -2,12 +2,35 @@
 <html lang="vi">
     <head>
         <meta charset="utf-8">
-        <title>Trang số 1</title>
+        <title>Trang đăng nhập</title>
+		<link href = "../css/login.css" rel ="stylesheet">
     </head>
     <body>
-        <ul>
-            <a href="../index.html">Trang chủ</a>
-            <a href="page2.html">Trang số 2</a>
-        </ul>
+			<h1>ĐĂNG NHẬP</h1>
+		<div class = "formgroup">
+			<form id="login">
+				<label for = "textUsername" >Tài khoản</label>
+				<input type = "text" 
+						id = "textUsername" 
+						name = "textUsername" 
+						class = "formcontrol"><br>
+						
+				<label for = "textPassword" >Mật khẩu</label>
+				<input type = "password" 
+						id = "textPassword" 
+						name = "textPassword" 
+						class = "formcontrol"><br>
+						
+				<input type = "submit"
+						id = "submit"
+						name = "sblogin" 
+						value = "submit"><br>
+						
+				<input type = "reset" 
+						id = "reset"
+						name = "rscancle" 
+						value = "cancle"><br>	
+			</form>
+		</div>	
     </body>
 </html>

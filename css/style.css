@@ -8,6 +8,7 @@ body{
 
 h1{
     border: 1px solid white;
+	border-radius: 15px;
     background-color: #1a5276;
     color: #fef9e7;
     padding: 20px 15px;
@@ -77,4 +78,13 @@ th, td:hover{
     background-color: lightblue;
 }
 
+#signin, #login{
+	padding: 10px;
+	margin: 5px 10px;
+	border: 1px solid lightblue;
+	border-radius:  15px;
+}
 
+#signin:hover ,#login:hover{
+	color: 
+}

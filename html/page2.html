@@ -2,12 +2,58 @@
 <html lang="vi">
     <head>
         <meta charset="utf-8">
-        <title>Trang số 2</title>
+        <title>Trang đăng kí</title>
+		<link href = "../css/signin.css" rel ="stylesheet">
     </head>
     <body>
-        <ul>
-            <a href="../index.html">Trang chủ</a>
-            <a href="page1.html">Trang số 1</a>
-        </ul>
+			<h1>ĐĂNG KÍ</h1>
+		<div class = "formgroup">
+			<form id="login">
+				<label for = "textUsername1" >Nhập họ và tên</label>
+				<input type = "text" 
+						id = "textUsername1" 
+						name = "textUsername1" 
+						class = "formcontrol"><br>
+						
+				<label for="birthday">Birthday:</label>
+				<input type="date" 
+						id="birthday"
+						name="birthday"><br>
+						
+				<label for="email">Nhập email</label>
+				<input type="email" 
+						id="email" 
+						name="email">
+
+				<label for = "textUsername2" >Tài khoản</label>
+				<input type = "text" 
+						id = "textUsername2" 
+						name = "textUsername2" 
+						class = "formcontrol"><br>
+						
+				<label for = "textPassword1" >Mật khẩu</label>
+				<input type = "password" 
+						id = "textPassword1" 
+						name = "textPassword2" 
+						class = "formcontrol"><br>
+						
+				<label for = "textPassword2" >Nhập lại mật khẩu</label>
+				<input type = "password" 
+						id = "textPassword2" 
+						name = "textPassword2" 
+						class = "formcontrol"><br>
+						
+				<input type = "submit" 
+						id = "submit"
+						name = "sblogin" 
+						value = "submit"><br>
+						
+				<input type = "reset" 
+						id = "reset"
+						name = "rscancle" 
+						value = "cancle"><br>
+						
+			</form>
+		</div>
     </body>
 </html>
