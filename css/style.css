@@ -78,13 +78,13 @@ th, td:hover{
     background-color: lightblue;
 }
 
-#signin, #login{
+#signin, #login, #hel{
 	padding: 10px;
 	margin: 5px 10px;
 	border: 1px solid lightblue;
 	border-radius:  15px;
 }
 
-#signin:hover ,#login:hover{
-	color: 
+#signin:hover ,#login:hover, #hel:hover{
+	background-color:lightblue; 
 }

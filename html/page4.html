@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="utf-8">
+        <title>Trang hop thoai</title>
+		<link href = "../css/signin.css" rel ="stylesheet">
+    </head>
+    <body>
+		<script>
+        let name = prompt("Nhap ho va ten: ");
+        let yob = Number(prompt("Nhap nam sinh: "));
+        window.alert("xin chao " + name + "nam nay ban da " + (2026 - yob) + " roi do." );
+        if( yob >= 2000 && yob <= 2010)
+        {
+            alert("Ban la Gen Z");
+        }
+        else if(yob > 2010)
+        {
+            alert("Ban la Gen A");
+        }
+        else if( yob < 2000)
+        {
+            alert("Ban la Gen Y");
+        }
+        else
+        {
+            alert("Ban khong thuoc ve trai dat");
+        }
+		</script>
+    </body>
+</html>
